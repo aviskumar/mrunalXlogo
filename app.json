@@ -10,20 +10,10 @@
          "Layla"
       ],   
    "repository": "https://github.com/msy1717/logo-bymrunal.git",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+   
    "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],  
    "env": {
@@ -46,6 +36,6 @@
          "description": "Your user ID as an integer.",
          "required": true,
          "value": "1471270328"
-}
+      }
    }
 }
