@@ -37,5 +37,11 @@
          "required": true,
          "value": "1471270328"
       }
+   },
+   "formation": {
+        "logo": {
+            "quantity": 1,
+            "size": "free"
+       }
    }
 }
